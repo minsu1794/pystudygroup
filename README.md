@@ -5,7 +5,7 @@ These are the exact steps I used to set up my python workspace on Windows 10. Fe
 _Make sure **"use Git from the Windows Command Prompt"** is selected when the installer asks for path options._
 2. Make a GitHub Account [here](https://github.com/)  
 3. Download PowerShell [here](https://github.com/powershell/powershell#get-powershell)  
-4. Set up Git path:  
+4. Configure Git in PowerShell:  
 * In order to run Git in PowerShell you need to manually give the system the path by navigating as follows:  
   * Control Panel\System and Security\System
   * Advanced System Settings
@@ -16,3 +16,8 @@ _Make sure **"use Git from the Windows Command Prompt"** is selected when the in
       * _C:\Program Files (x86)\Git\bin_
   * To test, open powershell and type `git`
     * A usage message should appear
+* Setup username to post commits with:  
+ `git config --global user.name "YOURUSERNAME"`
+* Setup email to post commits with:  
+`git config --global user.email "email@example.com"`
+5. Download Atom [here](https://atom.io/)
