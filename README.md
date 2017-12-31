@@ -14,10 +14,14 @@ _Make sure **"use Git from the Windows Command Prompt"** is selected when the in
     * Click 'New' and then add the following text 
       * _C:\Program Files (x86)\Git\cmd_  
       * _C:\Program Files (x86)\Git\bin_
-  * To test, open powershell and type `git`
+  * To test, open PowerShell and type `git`
     * A usage message should appear
 * Setup username to post commits with:  
  `git config --global user.name "YOURUSERNAME"`
 * Setup email to post commits with:  
 `git config --global user.email "email@example.com"`
 5. Download Atom [here](https://atom.io/)
+6. Download Python 3: Get the 'Windows x86-64 executable installer' [here](https://www.python.org/downloads/windows/)  
+_Make sure to tick "Add Python 3.x to Path"_  
+* To test, open PowerShell and type `python --version`
+  * A version message should appear
