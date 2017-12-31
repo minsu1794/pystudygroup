@@ -25,3 +25,15 @@ _Make sure **"use Git from the Windows Command Prompt"** is selected when the in
 _Make sure to tick "Add Python 3.x to Path"_  
 * To test, open PowerShell and type `python --version`
   * A version message should appear
+7. Download Biopython and Numpy  
+* In PowerShell type `pip install biopython`
+  * Successful Installation Message: 
+  ~~~~ 
+    Collecting biopython
+    Using cached biopython-1.70-cp36-cp36m-win_amd64.whl
+    Collecting numpy (from biopython)
+    Downloading numpy-1.13.3-cp36-none-win_amd64.whl (13.1MB)
+    100% |████████████████████████████████| 13.1MB 34kB/s
+    Installing collected packages: numpy, biopython
+    Successfully installed biopython-1.70 numpy-1.13.3
+  ~~~~
