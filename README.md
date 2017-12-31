@@ -43,8 +43,8 @@ Successfully installed biopython-1.70 numpy-1.13.3
   cd ~/Documents/GitHub  
   git clone https://github.com/tonyhiran/pystudygroup.git
   cd pystudygroup
-  mkdir YOURUSERNAME
-  cd YOURUSERNAME
+  git branch YOURUSERNAME
+  git checkout YOURUSERNAME
   ~~~~
 
 Now we are (probably) ready to do some coding!
