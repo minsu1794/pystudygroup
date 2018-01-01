@@ -48,3 +48,34 @@ Successfully installed biopython-1.70 numpy-1.13.3
   ~~~~
 
 Now we are (probably) ready to do some coding!
+
+## Programming Exercises
+### Program 1: Hello, World  
+> _"The 'Hello World' example is the traditional incantation to the programming gods and will ensure your quick mastery of the language, so please make sure you actually do this exercise, instead of just reading about it."_- Simon Cozens, Beginning Perl    
+
+1. In **PowerShell** type the following to make your personal folder and switch to it:
+~~~~
+cd ~/Documents/GitHub/pystudygroup
+mkdir "YOURUSERNAME"
+cd YOURUSERNAME
+~~~~
+2. Similarly, make the Hello World folder:
+~~~~
+mkdir "Hello World"
+cd "Hello World"
+~~~~
+3. In **Atom** make a file named "`Hello World.py`" with the following contents:
+~~~~
+#!/usr/bin/env python3
+print("Hello, World!");
+~~~~
+4. In **PowerShell** type `python "Hello World.py"`  
+5. Assuming things went well, commit and push changes to GitHub
+~~~~
+git status
+git add .
+git commit -m "Added Hello World.py"
+git push
+~~~~
+
+Now you have been blessed by the programming gods. 
