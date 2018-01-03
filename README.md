@@ -69,8 +69,8 @@ cd YOURUSERNAME
 ~~~~
 2. Similarly, make the Hello World folder:
 ~~~~
-mkdir "Hello World"
-cd "Hello World"
+mkdir "Program1"
+cd "Program1"
 ~~~~
 3. In **Atom** make a file named "`Hello World.py`" with the following contents:
 ~~~~
