@@ -46,7 +46,9 @@ Successfully installed biopython-1.70 numpy-1.13.3
 8. Clone the GitHub repository  
   * In PowerShell type:
   ~~~~  
-  cd ~/Documents/GitHub  
+  cd ~/Documents/
+  mkdir GitHub
+  cd GitHub
   git clone https://github.com/tonyhiran/pystudygroup.git
   cd pystudygroup
   git branch YOURUSERNAME
