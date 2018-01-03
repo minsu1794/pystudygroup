@@ -19,7 +19,8 @@ _Make sure **"use Git from the Windows Command Prompt"** is selected when the in
   * Setup username to post commits with:  
  `git config --global user.name "YOURUSERNAME"`
   * Setup email to post commits with:  
-`git config --global user.email "email@example.com"`
+`git config --global user.email "email@example.com"`  
+  * To figure out which email to use, go to [Primary email address](https://github.com/settings/emails)
 5. Download Atom [here](https://atom.io/)
 6. Download Python 3: Get the 'Windows x86-64 executable installer' [here](https://www.python.org/downloads/windows/)  
 _Make sure to tick "Add Python 3.x to Path"_  
@@ -78,4 +79,4 @@ git commit -m "Added Hello World.py"
 git push
 ~~~~
 
-Now you have been blessed by the programming gods. 
+Now you have been blessed by the programming gods.
