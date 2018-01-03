@@ -2,7 +2,8 @@
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Programming Exercises](#programming-exercises)  
-  * [Hello, World](#program-1-hello-world)  
+  * [Program 1: Hello, World](#program-1-hello-world) 
+  * [Program 2: Brute Force Optimize](#program-2-brute-force-optimize)
 * [References and Additional Resources](References.md#references)
 ## Getting Started
 These are the exact steps I used to set up my python workspace on Windows 10. Feel free to use other software if you can figure it out!
@@ -87,3 +88,5 @@ git push
 ~~~~
 
 Now you have been blessed by the programming gods.
+
+### Program 2: Brute Force Optimize
