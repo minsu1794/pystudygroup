@@ -1,4 +1,9 @@
 # Python Study Group - Documenting our Coding Adventures
+## Table of Contents
+* [Getting Started](#getting-started)
+* [Programming Exercises](#programming-exercises)  
+  * [Hello, World](#program-1-hello-world)  
+
 ## Getting Started
 These are the exact steps I used to set up my python workspace on Windows 10. Feel free to use other software if you can figure it out!
 1. Download Git [here](https://git-scm.com/downloads) (I just accepted all default options during the install.)  
