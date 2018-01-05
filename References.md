@@ -3,6 +3,8 @@
 * Step 4: [Configuring Git on PowerShell](http://learnaholic.me/2012/10/12/make-powershell-and-git-suck-less-on-windows/), [Github Help](https://help.github.com/articles/setting-your-commit-email-address-in-git/)  
 * Step 6, 7: [Installing Python and Biopython](http://biopython.org/DIST/docs/install/Installation.pdf)  
 
+## Program 2: Brute Opti
+* [List functions](https://docs.python.org/3/tutorial/datastructures.html)
 # Resources
 ### Books
 * [Biopython Tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)  

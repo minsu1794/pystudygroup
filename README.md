@@ -132,5 +132,96 @@ Writing this program plunges you into the world of python!
   * Solution: (x, y)
 
 #### Implementation Hints
-_coming soon!_  
-Spoilers: see my version at branch: [TonyHiran](https://github.com/tonyhiran/pystudygroup/tree/TonyHiran/TonyHiran/Program2)
+> Try to code it one step at a time!  
+_Spoilers_: See my version at branch [TonyHiran](https://github.com/tonyhiran/pystudygroup/tree/TonyHiran/TonyHiran/Program2)
+
+* To import some useful functions:
+~~~~
+import math
+import numpy
+import sys
+~~~~
+* Common math symbols/functions in python:
+~~~~
+add:          +
+subtract:     -
+multiply:     *
+divide:       /
+floor divide: //
+modulo:       %
+exponent:     **
+sqrt:         math.sqrt(expr)
+log:          math.log(x, base)
+sin:          math.sin(expr)
+cos:          math.cos(expr)
+tan:          math.tan(expr)
+e:            math.e
+π:            math.pi
+~~~~
+* Getting input:
+  * `string_var = input("PROMPT USER FOR STRING INPUT")`
+  * `float_var  =  float(input("PROMPT USER FOR NUMERIC INPUT"))`
+
+* Lists:
+  * Initializing new list
+  ~~~~
+  empty_list = []
+  int_list = [1, 2, 3, 4, 5]
+  mixed_list = [1, 'two', 3.1]
+  ~~~~
+  * Useful List functions
+    * append()
+    * insert()
+    * sort()
+    * len()
+    * _See [references](References.md#program2-brute-opti) for more_
+* If Statements
+~~~~
+if(expression):
+    PERFORM ACTIONS
+elif(expression):
+    PERFORM ACTIONS
+else:
+    PERFORM DEFAULT ACTIONS
+~~~~
+  * Note that each code block has to be indented to be under the relevant conditions  
+* While loops
+~~~~
+while CONDITION:
+    PERFORM ACTIONS
+~~~~
+* For loops
+~~~~
+for i in LIST
+    PERFORM ACTIONS
+~~~~
+example:
+~~~~
+for i in numpy.arange(0,10)
+    print(i)
+~~~~
+* Evaluate expression from string
+~~~~
+eval(string_expr)
+~~~~
+Example:
+~~~~
+x = 1
+f_x=eval(x**2 + 2*x + 1)
+print(f_x)
+~~~~
+  * Note: eval can be dangerous because
+    1. It is compiled as the code runs so it can slow things down
+    2. Makes debugging difficult if you use it to run certain commands  
+    3. It allows the user to make your program execute any command (malicious code injection threat)
+  * There are other functions that can be used instead
+  * You can also have conditions to make sure the eval statement inputs are 'sanitized'
+  * Here we are just using it ourselves to input strings of math expressions, so it's ok.   
+
+
+* Optional: Output custom error message after incorrect input
+  * `print('invalid input')`
+  * `sys.exit(1)`
+
+
+_More coming soon!_  
