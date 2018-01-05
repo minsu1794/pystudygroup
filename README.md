@@ -2,7 +2,7 @@
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Programming Exercises](#programming-exercises)  
-  * [Program 1: Hello, World](#program-1-hello-world) 
+  * [Program 1: Hello, World](#program-1-hello-world)
   * [Program 2: Brute Force Optimize](#program-2-brute-force-optimize)
 * [References and Additional Resources](References.md#references)
 ## Getting Started
@@ -62,6 +62,12 @@ Now we are (probably) ready to do some coding!
 ### Program 1: Hello, World  
 > _"The 'Hello World' example is the traditional incantation to the programming gods and will ensure your quick mastery of the language, so please make sure you actually do this exercise, instead of just reading about it."_- Simon Cozens, Beginning Perl    
 
+#### Skills Gained
+* Print Statements
+* Shell Commands: cd, mkdir
+* Git Commands: status, add, commit, push
+
+#### Implementation
 1. In **PowerShell** type the following to make your personal folder and switch to it:
 ~~~~
 cd ~/Documents/GitHub/pystudygroup
@@ -90,3 +96,41 @@ git push
 Now you have been blessed by the programming gods.
 
 ### Program 2: Brute Force Optimize
+Writing this program plunges you into the world of python!
+#### Skills Gained
+* Variables: float, string, int
+* Reading user input
+* If Statements
+* While loops
+* For loops
+* Lists
+* Optional: error handling
+
+#### Specifications
+* Create a program which solves a 2-dimensional optimization problem  
+  * The problem will be in the following form:  
+    * min/max f(x,y)
+    * st. g<sub>1</sub>(x, y), g<sub>2</sub>(x, y), ... , g<sub>n</sub>(x, y) conditions satisfied
+    * x<sub>lb</sub> &le; x &le; x<sub>ub</sub>
+    * y<sub>lb</sub> &le; y &le; y<sub>ub</sub>
+  * And the program will check all possible values of x and y before outputting the optimal solution
+    * x values checked: x<sub>lb</sub>, x<sub>lb</sub> + i, x<sub>lb</sub> + 2i, ... , x<sub>ub</sub> - i, x<sub>ub</sub>
+    * y values checked: y<sub>lb</sub>, y<sub>lb</sub> + j, y<sub>lb</sub> + 2j, ... , y<sub>ub</sub> - j, x<sub>ub</sub>
+      * i is x increment, j is y increment
+
+
+* User input (read in from command line)
+  * Optimization type (min or max)
+  * Objective function eg. x\*\*2 + 4\*x\*y + 4y\*\*2
+  * Constraints: eg. x &ge; 0, math.sin(y) > x
+  * x lower bound, upper bound, increment
+  * y lower bound, y upper bound, y increment
+
+
+* Output
+  * Optimal objective function value
+  * Solution: (x, y)
+
+#### Implementation Hints
+_coming soon!_  
+Spoilers: see my version at branch: [TonyHiran](https://github.com/tonyhiran/pystudygroup/tree/TonyHiran/TonyHiran/Program2)
